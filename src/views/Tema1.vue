@@ -6,10 +6,14 @@
       .titulo-principal__numero
         span 1
       h1 Modelos gerenciales y estructura administrativa
+    
     figure(data-aos="fade-up")
       img(src='@/assets/curso/tema1/img1.svg')
+    
     p(data-aos="fade-right") Para dar inicio a este tema se definirán los modelos gerenciales como estrategias de gestión operativa de administración, los cuales son necesarios para dar dirección a la empresa. Si bien existen varias corrientes de pensamiento administrativo, cada una de ellas no responde estrictamente a un modelo gerencial; sin embargo, sí hay diferentes tipos y modelos gerenciales que pueden denominarse tradicionales o contemporáneos, según la afinidad de sus enfoques.
-    p.mb-5 Esos tipos de modelos gerenciales son los siguientes:
+    
+    p.mb-4 Esos tipos de modelos gerenciales son los siguientes:
+    
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
       .row.align-items-center(titulo="Planificación estratégica")
         .col-md-auto.mb-4.mb-md-0
@@ -66,27 +70,26 @@
 
     .row.mb-0.mb-lg-4
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/tema2/img1.png', style="width:450px").m-auto
+        img(src='@/assets/curso/tema2/img1.png', style="width:450px").m-auto
       .col-lg-7(data-aos="fade-left")
         p A continuación, se define la estructura administrativa como esquema que permite formalizar y representar las relaciones, las comunicaciones, los procesos de decisión y los procedimientos, que son ejecutados por un grupo de personas y su articulación, ya sea por departamentos, áreas, unidades, entre otros, y que están orientados hacia la obtención de unos objetivos empresariales determinados. La representación gráfica de la estructura organizacional es el organigrama, donde se indica la forma en que se interrelacionan distintas actividades, tareas o funciones.
     p.mb-5(data-aos="fade-right") Algunas de las ventajas de desarrollar un apropiado esquema organizacional son las siguientes:
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema2/img1.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema2/img1.svg' alt='')
           .tarjeta.color-primario
             .p-4
               p Facilitar la toma de decisiones y el flujo de la información para satisfacer las necesidades internas, pero también las externas (de los clientes, proveedores y entidades reguladoras).
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema2/img2.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema2/img2.svg' alt='')
           .tarjeta.color-primario
             .p-4
               p Definir la autoridad claramente, así como también, la responsabilidad de trabajos, equipos, áreas, divisiones y departamentos.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema2/img3.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema2/img3.svg' alt='')
           .tarjeta.color-primario
             .p-4
               p Crear los niveles de coordinación (integración) esperados en el desempeño de los trabajos, equipos, áreas, departamentos y divisiones, disponiendo procedimientos para una reacción rápida ante los cambios en el entorno.
@@ -95,22 +98,21 @@
         p Recuerde que el diseño de estructura organizacional descentralizado y con autoridad delegada, soluciona algunas problemáticas, pero también crea otras. Cada tipo de estructura presenta inconvenientes; por ende, la clave se encuentra en seleccionar, según el tipo de empresa, una estructura que minimice esos inconvenientes, identificando variables que influencian el desempeño regular de la organización como, por ejemplo, los tres factores más representativos: ambientales, estratégicos y tecnológicos, que afectan la toma de decisiones en materia de diseño organizacional. Otros factores que pueden incidir, también pueden ser externos, como proveedores, consumidores y nuevos competidores.
         .cajon.color-primario.p-4
           p.mb-0 La evolución de los tipos de estructura ha marcado la necesidad de generar flexibilidad al interior de las empresas y también la capacidad de adaptarse a los cambios de manera ágil. Por esto es importante presentar el tipo de estructura tradicional y contemporánea, para así reconocer la variación.
-      .col-lg-5(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/tema2/img2.png', style="width:450px").m-auto
+      .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
+        img(src='@/assets/curso/tema2/img2.png', style="width:450px").m-auto
+    
     .row.align-items-center.mb-4(data-aos="fade-up")
       .col-auto.pe-0
-        figure
-          img(src='@/assets/curso/tema2/img4.svg', style="width:20px")
+        img(src='@/assets/curso/tema2/img4.svg', style="width:20px")
       .col
         h3.mb-0 Estructura tradicional
     .row.mb-0.mb-lg-4
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/tema2/img3.png', style="width:500px").m-auto
+        img(src='@/assets/curso/tema2/img3.png', style="width:500px").m-auto
       .col-lg-7(data-aos="fade-left")
-        p.mb-4.mb-lg-0 Es aquella estructura caracterizada por un diseño funcional, es decir, incluye la creación de puestos, equipos y departamentos con base en las actividades especializadas. A partir de ahí, el agrupamiento por funciones de los empleados (por áreas o departamentos) es la manera más apropiada, de más amplio uso y aceptación. Este tipo de estructura presenta ventajas y desventajas, puesto que, por un lado, permite la caracterización y asignación clara de responsabilidades y los colaboradores lo comprenden fácilmente. La similitud en tareas o funciones, posibilitan que la interacción genere soluciones y respaldo entre los integrantes de departamento o del área. La desventaja es que limita los puntos de vista porque los departamentos o áreas pierden la visión de empresa por focalizar sus intereses en lo que únicamente les corresponde. También esta estructura se define a partir del diseño del lugar de trabajo, estableciendo de forma geográfica las unidades (conservando el diseño funcional). Este diseño tiene sus ventajas, como el contacto directo con los clientes internos o externos, rápida respuesta por estar concentrada la información en el área geográfica determinada. Sin embargo, también se experimentan problemas de control y coordinación, puesto que, si las unidades regionales cuentan con procedimientos diferentes, será complicada su articulación
-    p.mb-5(data-aos="fade-right") Los tipos de estructura tradicional son:
+        p.mb-4.mb-lg-0 Es aquella estructura caracterizada por un diseño funcional, es decir, incluye la creación de puestos, equipos y departamentos con base en las actividades especializadas. A partir de ahí, el agrupamiento por funciones de los empleados (por áreas o departamentos) es la manera más apropiada, de más amplio uso y aceptación. Este tipo de estructura presenta ventajas y desventajas, puesto que, por un lado, permite la caracterización y asignación clara de responsabilidades y los colaboradores lo comprenden fácilmente. La similitud en tareas o funciones, posibilitan que la interacción genere soluciones y respaldo entre los integrantes de departamento o del área. La desventaja es que limita los puntos de vista porque los departamentos o áreas pierden la visión de empresa por focalizar sus intereses en lo que únicamente les corresponde. También esta estructura se define a partir del diseño del lugar de trabajo, estableciendo de forma geográfica las unidades (conservando el diseño funcional). Este diseño tiene sus ventajas, como el contacto directo con los clientes internos o externos, rápida respuesta por estar concentrada la información en el área geográfica determinada. Sin embargo, también se experimentan problemas de control y coordinación, puesto que, si las unidades regionales cuentan con procedimientos diferentes, será complicada su articulación.
+    
+    p.mb-4(data-aos="fade-right") Los tipos de estructura tradicional son:
     TabsC.color-acento-contenido.mb-5(data-aos="fade-left")
       .py-3.py-md-4(titulo="Funcional")
         .row.m-1
@@ -127,13 +129,14 @@
           .col-lg-6
             p Se estructura por áreas geográficas o por productos; esto beneficia que puedan estar alineados con los objetivos organizacionales. Sin embargo, es más complejo el logro de sinergia, puede generar duplicidad en los costos y hay menos aprendizaje colectivo.
     p.mb-5(data-aos="fade-up") El modelo tradicional de administración que respalda esta estructura, está basado en los principios administrativos, definidos como la serie de fases o etapas que permiten llevar a cabo una actividad, con la existencia de diversos criterios acerca de la cantidad de etapas que lo constituyen, como se observa en la Figura 1.
+    
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Figura 1] 
-          p.mb-0 #[em Fases o etapas administrativas] 
+          p.mb-0 #[b Figura 1.] Fases o etapas administrativas
         figure
-          img(src='@/assets/curso/tema2/img7.svg')
+          img(src='@/assets/curso/tema2/img7.svg' alt="Gráfico que expone las 4 fases administrativas y que se busca con cada uno de ellas. Planeación: ¿Qué se quiere lograr? Organización: ¿Cómo y con qué elementos se lograría? Dirección: Evidenciar que se haga Control: Evaluar ¿cómo se realizó?")
+
     .row.align-items-center.mb-4(data-aos="fade-up")
       .col-auto.pe-0
         figure
@@ -143,9 +146,8 @@
     .row.mb-4.mb-lg-0
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p  Con la decantación y puesta a prueba de las estructuras administrativas tradicionales, han ido surgiendo nuevas formas que permiten dar respuesta con mayor celeridad a los requerimientos del mercado y del contexto; entre los diseños contemporáneos emergentes se encuentran los diseños multinacionales que utilizan las empresas de negocios múltiples que producen y venden productos en varios países. También se encuentra el diseño en red, que se enfoca en tener una autoridad compartida, la responsabilidad y los recursos distribuidos entre los participantes del proceso; eso quiere decir que deben estar permanentemente comunicados para alcanzar las metas comunes. La organización virtual también se consolida como un diseño contemporáneo, en tanto los integrantes de la organización deben estar en constante comunicación para la toma de decisiones en tiempo real y desde cualquier lugar; es un tipo de organización que está formada por redes, en evolución constante, y que utilizan todas las herramientas tecnológicas para el ejercicio de su labor, como si estuvieran en el mismo salón u oficina.
-      .col-lg-5(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/tema2/img4.png', style="width:450px").m-auto
+      .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
+        img(src='@/assets/curso/tema2/img4.png', style="width:450px").m-auto
     p.mb-5(data-aos="fade-down") En términos de estructura administrativa, es común encontrar las siguientes configuraciones:
     TabsC.color-acento-contenido.mb-5(data-aos="fade-left")
       .py-3.py-md-4(titulo="Matricial")

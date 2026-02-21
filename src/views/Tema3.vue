@@ -6,59 +6,67 @@
       .titulo-principal__numero
         span 3
       h1 Teoría general de sistemas
+    
     .row.mb-0.mb-lg-4
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/tema4/img1.png', style="width:450px").m-auto
+        img(src='@/assets/curso/tema4/img1.png', style="width:450px").m-auto
       .col-lg-7(data-aos="fade-left")
         p Surge de una serie de estudios interdisciplinarios cuyo propósito es el de explicar el funcionamiento e impacto de los sistemas en todos los niveles. El sistema como un todo, está constituido por partes que se encuentran interrelacionadas y dependen unas de las otras; el cambio en una de esas partes del sistema afecta a las demás. El crecimiento positivo de un sistema depende de la capacidad de adaptación al entorno y a las dinámicas cambiantes. La teoría de sistemas tiene como objetivo descubrir las condiciones y las restricciones que se presentan para discernir la aplicación de una acción ampliamente, en lugar de hacerlo de manera particular. Esta teoría tuvo su origen en el campo de la biología; sin embargo, los resultados obtenidos mostraron la posibilidad y oportunidad de generar su influencia en otros ámbitos.
-    p.mb-5(data-aos="fade-up") Existen dos tipos de sistemas:
-    .row.mb-5(data-aos="fade-right")
+    
+    p.mb-4(data-aos="fade-up") Existen dos tipos de sistemas:
+    .row.mb-4(data-aos="fade-right")
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido.mb-3
+          p.mb-0 #[b Figura 3.] Tipos de sistemas 
       .col-lg-6.bg-c4.p-5
         figure.mb-5
-          img(src='@/assets/curso/tema4/img1.svg', style="width:450px").m-auto
+          img(src='@/assets/curso/tema4/img1.svg', style="width:450px" alt="Sistema abierto: que abarca una entrada y una salida con sus fronteras y alrededores, esta en constantes relación con el ambiente o su entorno.").m-auto
         h3.text-center Abierto
         p.text-center.mb-0 Está en constante relación con el ambiente o su entorno.
       .col-lg-6.bg-c5.p-5
         figure.mb-5
-          img(src='@/assets/curso/tema4/img2.svg', style="width:320px").m-auto
+          img(src='@/assets/curso/tema4/img2.svg', style="width:320px" alt="Sistema cerrado: no hay relación con el entorno, porque no lo necesita para cumplir su función.").m-auto
         h3.text-center Cerrado
         p.text-center.mb-0 No hay relación con el entorno, porque no lo necesita para cumplir con su función.
-    p.mb-5(data-aos="fade-left") Con la llegada de esta teoría, se dio paso a la conformación y estructuración de modelos que permiten el funcionamiento planeado y organizado de la empresa como, por ejemplo, el sistema de gestión de la calidad, el cual es un conjunto de elementos que le posibilita a las empresas aplicar el ciclo PHVA en las actividades requeridas y necesarias para el cumplimiento de la misión, la visión y los objetivos organizacionales, estableciendo políticas, normas, procesos y procedimientos que permitan ofertar, al mercado, servicios y productos con estándares de calidad altos, así como también generar confianza entre los usuarios o clientes y propiciar sostenibilidad en el tiempo.
-    .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-lg-8
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    
+    p.mb-4(data-aos="fade-left") Con la llegada de esta teoría, se dio paso a la conformación y estructuración de modelos que permiten el funcionamiento planeado y organizado de la empresa como, por ejemplo, el sistema de gestión de la calidad, el cual es un conjunto de elementos que le posibilita a las empresas aplicar el ciclo PHVA en las actividades requeridas y necesarias para el cumplimiento de la misión, la visión y los objetivos organizacionales, estableciendo políticas, normas, procesos y procedimientos que permitan ofertar, al mercado, servicios y productos con estándares de calidad altos, así como también generar confianza entre los usuarios o clientes y propiciar sostenibilidad en el tiempo.
+    
+    .row.justify-content-center.mb-4(data-aos="fade-down")
+      .col-lg-9
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema4/img2.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p Los principios que rigen el sistema de gestión de la calidad son:
-              br
-              br
-              ul.lista-ul
-                li.mb-0
-                  i.fas.fa-check(style="color:#F85316")
-                  | Liderazgo.
-                li.mb-0
-                  i.fas.fa-check(style="color:#F85316")
-                  | Enfoque al usuario o cliente.
-                li.mb-0
-                  i.fas.fa-check(style="color:#F85316")
-                  | Mejora continua.
-                li.mb-0
-                  i.fas.fa-check(style="color:#F85316")
-                  | Decisiones orientadas en pruebas.
-                li.mb-0
-                  i.fas.fa-check(style="color:#F85316")
-                  | Compromiso de las personas.
-                li.mb-0
-                  i.fas.fa-check(style="color:#F85316")
-                  | Enfoque a procesos.
-                li.mb-0
-                  i.fas.fa-check(style="color:#F85316")
-                  | Gestión de las relaciones.
+            br
+            br
+            ul.lista-ul.fa-lista.mb-0
+              li.mb-0
+                i.fas.fa-check(style="color:#F85316")
+                span.mb-0 Liderazgo.
+              li.mb-0
+                i.fas.fa-check(style="color:#F85316")
+                span.mb-0 Enfoque al usuario o cliente.
+              li.mb-0
+                i.fas.fa-check(style="color:#F85316")
+                span.mb-0 Mejora continua.
+              li.mb-0
+                i.fas.fa-check(style="color:#F85316")
+                span.mb-0 Decisiones orientadas en pruebas.
+              li.mb-0
+                i.fas.fa-check(style="color:#F85316")
+                span.mb-0 Compromiso de las personas.
+              li.mb-0
+                i.fas.fa-check(style="color:#F85316")
+                span.mb-0 Enfoque a procesos.
+              li.mb-0
+                i.fas.fa-check(style="color:#F85316")
+                span.mb-0 Gestión de las relaciones.
+    
     p(data-aos="fade-right") Todos estos principios, orientados hacia el logro de los objetivos y metas de la empresa, y con la aplicación adecuada de un Sistema de Gestión de Calidad, pueden llegar a alcanzar: reducción en los costos, incremento de la rentabilidad del negocio, aumento de la satisfacción de los clientes, mejora de la imagen de la empresa en el mercado, diferenciación positiva con relación a la competencia, entre otros.
-    p.mb-5(data-aos="fade-down") Por otra parte, existen varios conceptos asociados al Sistema de Gestión de la Calidad, que obran y actúan con objetivos específicos; estos conceptos son:
+    p.mb-4(data-aos="fade-down") Por otra parte, existen varios conceptos asociados al Sistema de Gestión de la Calidad, que obran y actúan con objetivos específicos; estos conceptos son:
+    
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
       .row(titulo="Control de calidad")
         .col-lg.mb-4.mb-lg-0

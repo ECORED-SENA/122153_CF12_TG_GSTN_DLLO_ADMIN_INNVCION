@@ -6,20 +6,25 @@
       .titulo-principal__numero
         span 2
       h1 Administración estratégica a partir del diagnóstico
-    p.mb-5(data-aos="fade-right") Con el objetivo de profundizar sobre la administración estratégica a partir del diagnóstico y dar respuesta a preguntas como: ¿qué es?, ¿para qué sirve?, ¿cuáles son los tipos de estrategias administrativas? Lo invitamos a ver el siguiente video, el cual aborda la temática de manera específica:
-    figure.mb-5(data-aos="fade-up")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/0ZLYKrw2_KM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
+    p.mb-4(data-aos="fade-right") Con el objetivo de profundizar sobre la administración estratégica a partir del diagnóstico y dar respuesta a preguntas como: ¿qué es?, ¿para qué sirve?, ¿cuáles son los tipos de estrategias administrativas? Lo invitamos a ver el siguiente video, el cual aborda la temática de manera específica:
+    
+    .mb-5(data-aos="fade-up")
+      figure
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/0ZLYKrw2_KM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Administración estratégica 
+
     p(data-aos="fade-left") Es así como el diagnóstico es el resultado documental de la recolección de una serie de información que debe ser considerada a la hora de tomar decisiones empresariales, porque permite obtener un estado del arte, una radiografía de lo que se tiene, para poder así proyectar lo que se debe hacer; esto forma parte de una buena administración estratégica, desde el reconocer para actuar.
-    p.mb-5(data-aos="fade-left") En la Figura 2 se aprecian algunas de las variables que se analizan para el diagnóstico, tanto interno como externo:
+    p.mb-4(data-aos="fade-left") En la Figura 2 se aprecian algunas de las variables que se analizan para el diagnóstico, tanto interno como externo:
     
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          p.mb-0 #[b Figura 2] 
-          p.mb-0 #[em Variables que se analizan para el diagnóstico en el análisis estratégico] 
+          p.mb-0 #[b Figura 2.]  Variables que se analizan para el diagnóstico en el análisis estratégico
         figure
-          img(src='@/assets/curso/tema3/img1.svg')
+          img(src='@/assets/curso/tema3/img1.svg' alt="Gráfico que mencionas las diferentes variables internas y variables externas generando un diagnostico. - Análisis interno: cultura oraganizacional, recursos, actividad económica, tamaño de la empresa, trayectoria. - Análisis externo: demografía, economía, política, medio ambiente, mercado (competencia).")
+
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10
         .cajon.color-primario.p-4
@@ -29,35 +34,35 @@
       .tarjeta.color-secundario
         .row.justify-content-center.mb-3
           .col-12
-            img(src='@/assets/curso/tema3/img1.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema3/img1.png' alt='')
           .col-12.p-4
             h4.text-center.text-white Observación
             p.text-center.text-white.mb-0 Se da cuando el observador lo realiza como parte del grupo, participando en actividades dispuestas para el ejercicio diagnóstico.
       .tarjeta.color-secundario
         .row.justify-content-center.mb-3
           .col-12
-            img(src='@/assets/curso/tema3/img2.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema3/img2.png' alt='')
           .col-12.p-4
             h4.text-center.text-white Entrevista individual
             p.text-center.text-white.mb-0 Se da a partir de la generación de un ambiente de confianza y afinidad entre el entrevistador y el entrevistado.
       .tarjeta.color-secundario
         .row.justify-content-center.mb-3
           .col-12
-            img(src='@/assets/curso/tema3/img3.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema3/img3.png' alt='')
           .col-12.p-4
             h4.text-center.text-white Análisis de documentos
             p.text-center.text-white.mb-0 Se reúnen documentos con el fin de ser analizados e interpretados.
       .tarjeta.color-secundario
         .row.justify-content-center.mb-3
           .col-12
-            img(src='@/assets/curso/tema3/img4.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema3/img4.png' alt='')
           .col-12.p-4
             h4.text-center.text-white Discusión en pequeños grupos
             p.text-center.text-white.mb-0 Sesiones grupales y dirigidas.
       .tarjeta.color-secundario
         .row.justify-content-center.mb-3
           .col-12
-            img(src='@/assets/curso/tema3/img5.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema3/img5.png' alt='')
           .col-12.p-4
             h4.text-center.text-white Dramatización
             p.text-center.text-white.mb-0 Proporciona información sobre la percepción que las personas tienen sobre diversos temas.
@@ -98,12 +103,12 @@
           img(src='@/assets/curso/tema2/img4.svg', style="width:20px")
       .col
         h3.mb-0 Instrumentos de análisis estratégico
-    .row.mb-5
-      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
+    
+    .row.mb-4
+      .col-lg-7(data-aos="fade-right")
         p Existen instrumentos que apoyan y guían el levantamiento de la información necesaria para realizar un diagnóstico preciso y adecuado, porque en sí mismo, el diagnóstico es la herramienta de análisis. Contar con un diagnóstico integral impide cometer errores de forma reiterada o simplemente, generar acciones basadas en percepciones o creencias alejadas de la realidad, que terminan propiciando situaciones no deseadas.
-      .col-lg-5(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/tema3/img9.png', style="width:450px").m-auto
+      .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
+        img(src='@/assets/curso/tema3/img9.png', style="width:450px").m-auto
     
     p Algunos instrumentos de análisis estratégico son: 
     

@@ -6,17 +6,19 @@
       .titulo-principal__numero
         span 4
       h1 Métricas y planes de acción en las empresas
+    
     .row
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema5/img1.png', style="width:450px").m-auto
       .col-lg-7(data-aos="fade-left")
         p Comúnmente se escucha la frase “lo que no se mide, no es susceptible de mejora”, y esto representa una realidad también para las empresas, puesto que, si no se tiene certeza de la proximidad que existe con procesos óptimos y de calidad, no se podrá disponer de acciones para mejorar o realizar ajustes correctivos. Por esta razón, se realiza la implementación de los indicadores como métricas de valor, los cuales permiten generar comparativos en pro del perfeccionamiento en la operación de la empresa.
-    Separador
     
+    Separador    
     #t_4_1
     .titulo-segundo.color-acento-contenido
       h2 4.1 Indicadores de gestión
+
     .row.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p Evaluar conclusiones resulta indispensable si la aspiración es administrar una empresa o proyecto con responsabilidad y buscar la sostenibilidad y supervivencia. Por esta razón, conocer los #[b indicadores de gestión] termina siendo, más que una opción, una necesidad. Ellos son una expresión, valor, o signo cuantitativo o cualitativo que muestran el desempeño o el logro en el proceso; sin embargo, en sí mismos, no dicen mucho; por esta razón, es preciso también definir valores de referencia para ser comparados a la luz de una meta u objetivo. Un indicador puede ser la evidencia del avance o estado de un proceso específico, pero el conjunto de varios indicadores bien analizados puede mostrar la situación de la empresa.
@@ -29,33 +31,34 @@
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema5/img1.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema5/img1.svg' alt='')
           .tarjeta.color-primario
             .p-4
               p.text-center Contribuyen activamente y de manera contundente, en la toma de decisiones.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema5/img2.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema5/img2.svg' alt='')
           .tarjeta.color-primario
             .p-4
               p.text-center Manifiestan la eficiencia de las actividades y acciones de la empresa, conjuntamente.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema5/img3.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema5/img3.svg' alt='')
           .tarjeta.color-primario
             .p-4
               p.text-center Facilitan la identificación de las problemáticas que se presentan y las que podrían llegar a surgir.
-    p.mb-5(data-aos="fade-down") Existen diversos tipos de indicadores de gestión, los cuales son:
+    
+    p.mb-4(data-aos="fade-down") Existen diversos tipos de indicadores de gestión, los cuales son:
     figure.mb-5(data-aos="fade-right")
-      img(src='@/assets/curso/tema5/img4.svg')
-    p.mb-5(data-aos="fade-down") Ahora, para generar o crear indicadores de gestión, se deben tener en cuenta diferentes pasos (Figura 3), porque el nivel de credibilidad y certeza del indicador, dependerá de su asertividad en la formulación.
-    .row.mb-5(data-aos="fade-left")
+      img(src='@/assets/curso/tema5/img4.svg' alt="Gráfico que expone los ocho tipostipos de indicadores de gestión, los cuales son: Eficiencia: miden la capacidad de uso racional de los recursos para obtener resultados por encima de lo planeado. Eficacia: miden el funcionamiento desde la objetividad. Estratégicos: miden variables orientadas a la planeación, más generales o globales. Operativos: miden elementos asociados a la operación de la empresa. Cuantitativos: miden procesos de producción y servicio (expresados en valores numéricos). Cualitativos: miden percepciones subjetivas sobre el desarrollo de funciones de la empresa. Externos: miden el impacto de la marca en el mercado. Internos: miden la gestión de los procesos de la empresa. ")
+    
+    p.mb-4(data-aos="fade-down") Ahora, para generar o crear indicadores de gestión, se deben tener en cuenta diferentes pasos (Figura 3), porque el nivel de credibilidad y certeza del indicador, dependerá de su asertividad en la formulación.
+    .row.mb-4(data-aos="fade-left")
       .col-12
-        .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Figura 3] 
-          p.mb-0 #[em Pasos para generar indicadores de gestión] 
+        .titulo-sexto.color-acento-contenido.mb-3
+          p.mb-0 #[b Figura 4.] Pasos para generar indicadores de gestión
         figure
-          img(src='@/assets/curso/tema5/img5.svg')
+          img(src='@/assets/curso/tema5/img5.svg' alt="Gráfico que expone los diez pasos para generar indicadores de gestión. Definir el objetivo de lo que se quiere medir.  Identificar las variables a evaluar. Identificar las fuentes de información. Concretar el objetivo del indicador. Definir la fórmula que proporcionará el indicador. Fijar una meta o un estándar al cual se quiere llegar. Identificar la frecuencia de medición.Identificar los responsables del indicador. Definir el nivel de aplicabilidad.  Asignar el código y nombre del indicador.")
     
     p(data-aos="fade-right") Para profundizar en las metodologías y el paso a paso de construcción de indicadores de gestión, lo invitamos a consultar el material complementario.
     
@@ -97,32 +100,32 @@
       .tarjeta.color-secundario1.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema5/img8.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema5/img8.svg' alt='')
         p.text-center.text-white Descripción clara y definida del objetivo a alcanzar.
       .tarjeta.color-secundario1.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema5/img9.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema5/img9.svg' alt='')
         p.text-center.text-white Actividades o pasos a realizar, para llegar a la meta trazada.
       .tarjeta.color-secundario1.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema5/img10.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema5/img10.svg' alt='')
         p.text-center.text-white Personas responsables de las actividades o tareas.
       .tarjeta.color-secundario1.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema5/img11.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema5/img11.svg' alt='')
         p.text-center.text-white Fechas y tiempos para completar las tareas.
       .tarjeta.color-secundario1.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema5/img12.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema5/img12.svg' alt='')
         p.text-center.text-white Recursos necesarios para cumplir y llevar a cabo las tareas.
       .tarjeta.color-secundario1.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema5/img13.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema5/img13.svg' alt='')
         p.text-center.text-white Medidas para evaluar el proceso.
     .row.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
@@ -169,18 +172,20 @@
           img(src='@/assets/curso/tema5/img5.png', style="width:450px").m-auto
       .col-lg-7(data-aos="fade-left")
         p Este plan consiste en validar las diferentes acciones o actividades que se desarrollan durante el periodo planteado en el cronograma; es una manera de comprobar que se están implementando tareas encaminadas a los objetivos estratégicos en cada una de las fases. Una correcta gestión del plan de seguimiento implica decidir quién va a llevar a cabo el seguimiento y cómo lo realizará. Una de las metodologías es la de auditorías, que son visitas y levantamiento de información de procesos a través de visitas, entrevistas o #[i checklist], donde se indaga sobre la realización de los procesos o procedimientos, con la probabilidad que sean identificadas acciones no procedentes, deficiencias o errores en el hacer.
+    
     .row.align-items-center.mb-4(data-aos="fade-up")
       .col-auto.pe-0
         figure
           img(src='@/assets/curso/tema2/img4.svg', style="width:20px")
       .col
         h3.mb-0 Planes de contingencia
-    .row.mb-5
-      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
+    
+    .row.mb-4
+      .col-lg-7(data-aos="fade-right")
         p Un plan de contingencia detalla las acciones a tomar para que una empresa pueda continuar con su operación en caso de imprevistos, crisis o emergencias (climáticas, financieras, orden público). Independientemente de la situación que se presente, la organización se debe encontrar preparada para afrontarlo sin interrumpir su operación. Son variables que no pueden ser controladas por la empresa, pero que sí tiene la responsabilidad de preparar cómo sería el impacto de ellas en la realidad de la operación y funcionamiento. El plan de contingencia tiene varios propósitos: proteger la vida, la seguridad y la integridad de los colaboradores o los visitantes, llámense clientes o proveedores; otro, es el de preservar la empresa, con el fin de seguir aportando social y económicamente al mercado, entendiendo que con ello también se salvaguarda el empleo que se genera, las transacciones que implican relaciones con otras organizaciones y, por supuesto, el consumo de los productos y servicios.
-      .col-lg-5(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/tema5/img6.png', style="width:450px").m-auto
+      .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
+        img(src='@/assets/curso/tema5/img6.png', style="width:450px").m-auto
+    
     p.mb-5(data-aos="fade-down") Para plantear un plan de contingencia se deben tener en cuenta estos 10 pasos:
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-8
@@ -251,14 +256,14 @@
           img(src='@/assets/curso/tema2/img4.svg', style="width:20px")
       .col
         h3.mb-0 Planes de mejoramiento
-    p.mb-5(data-aos="fade-right") Liderar una empresa o proyecto para lograr los objetivos establecidos no es sencillo, y menos cuando resultan sucesos o hallazgos poco convenientes con la operación. Para esto surge la herramienta del plan de mejoramiento, como mecanismo de solución y mitigación de las deficiencias identificadas; se trata de aplicar una técnica efectiva que permita operaciones más eficientes, la mejora de la gestión organizacional, tomar mejores decisiones, aumento de la productividad, satisfacción de los colaboradores y de los clientes. Para elaborar un plan de mejoramiento se pueden tomar como base los siguientes siete pasos:
+    
+    p.mb-4(data-aos="fade-right") Liderar una empresa o proyecto para lograr los objetivos establecidos no es sencillo, y menos cuando resultan sucesos o hallazgos poco convenientes con la operación. Para esto surge la herramienta del plan de mejoramiento, como mecanismo de solución y mitigación de las deficiencias identificadas; se trata de aplicar una técnica efectiva que permita operaciones más eficientes, la mejora de la gestión organizacional, tomar mejores decisiones, aumento de la productividad, satisfacción de los colaboradores y de los clientes. Para elaborar un plan de mejoramiento se pueden tomar como base los siguientes siete pasos:
     .row(data-aos="fade-left")
       .col-12
-        .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Figura 4] 
-          p.mb-0 #[em Pasos para elaborar el plan de mejoramiento] 
+        .titulo-sexto.color-acento-contenido.mb-3
+          p.mb-0 #[b Figura 5.] Pasos para elaborar el plan de mejoramiento
         figure
-          img(src='@/assets/curso/tema5/img27.svg')
+          img(src='@/assets/curso/tema5/img27.svg' alt="Gráfico que menciona los 7 pasos para el plan de mejoramiento. 1. Identificación del proceso a mejorar. 2. Análisis del proceso. 3. Reformulación del proceso. 4. Planteamiento de la propuesta de mejora. 5. Comunicación del plan de mejora. 6. Ejecución del plan de mejora. 7. Supervisión del plan de mejora.")
 
 </template>
 
