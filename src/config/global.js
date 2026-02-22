@@ -110,14 +110,14 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
-      {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
         download: 'downloads/CFA_12_122153_DU.zip',
+      },
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar material',
+        download: 'downloads/material.zip',
       },
       {
         icono: 'far fa-registered',
